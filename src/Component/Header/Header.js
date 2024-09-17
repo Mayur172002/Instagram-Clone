@@ -47,7 +47,7 @@ export default function Header() {
             </form>
             <ul className="navbar-nav d-flex flex-row mt-2 mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="navbar-brand" href="#"> <img src={homeiconSvg} className='img-fluid' /></a>
+                <Link className="navbar-brand" to={"/"}> <img src={homeiconSvg} className='img-fluid' /></Link>
               </li>
               <li className="nav-item">
                 <a className="navbar-brand" href="#"> <img src={massiconSvg} className='img-fluid' /></a>
